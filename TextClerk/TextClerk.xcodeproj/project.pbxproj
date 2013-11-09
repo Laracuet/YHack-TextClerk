@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D7A84D4182E00EF00C29CBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D7A84D3182E00EF00C29CBF /* Foundation.framework */; };
+		1D7A84D6182E00EF00C29CBF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D7A84D5182E00EF00C29CBF /* CoreGraphics.framework */; };
+		1D7A84D8182E00EF00C29CBF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D7A84D7182E00EF00C29CBF /* UIKit.framework */; };
+		1D7A84DE182E00EF00C29CBF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D7A84DC182E00EF00C29CBF /* InfoPlist.strings */; };
+		1D7A84E0182E00EF00C29CBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A84DF182E00EF00C29CBF /* main.m */; };
+		1D7A84E4182E00EF00C29CBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A84E3182E00EF00C29CBF /* AppDelegate.m */; };
+		1D7A84E7182E00EF00C29CBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D7A84E5182E00EF00C29CBF /* Main.storyboard */; };
+		1D7A84EA182E00EF00C29CBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A84E9182E00EF00C29CBF /* ViewController.m */; };
+		1D7A84EC182E00EF00C29CBF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D7A84EB182E00EF00C29CBF /* Images.xcassets */; };
+		1D7A84F3182E00EF00C29CBF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D7A84F2182E00EF00C29CBF /* XCTest.framework */; };
+		1D7A84F4182E00EF00C29CBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D7A84D3182E00EF00C29CBF /* Foundation.framework */; };
+		1D7A84F5182E00EF00C29CBF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D7A84D7182E00EF00C29CBF /* UIKit.framework */; };
+		1D7A84FD182E00EF00C29CBF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D7A84FB182E00EF00C29CBF /* InfoPlist.strings */; };
+		1D7A84FF182E00EF00C29CBF /* TextClerkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A84FE182E00EF00C29CBF /* TextClerkTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D7A84F6182E00EF00C29CBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D7A84C8182E00EE00C29CBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D7A84CF182E00EF00C29CBF;
+			remoteInfo = TextClerk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D7A84D0182E00EF00C29CBF /* TextClerk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextClerk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D7A84D3182E00EF00C29CBF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D7A84D5182E00EF00C29CBF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1D7A84D7182E00EF00C29CBF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1D7A84DB182E00EF00C29CBF /* TextClerk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextClerk-Info.plist"; sourceTree = "<group>"; };
+		1D7A84DD182E00EF00C29CBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D7A84DF182E00EF00C29CBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D7A84E1182E00EF00C29CBF /* TextClerk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextClerk-Prefix.pch"; sourceTree = "<group>"; };
+		1D7A84E2182E00EF00C29CBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D7A84E3182E00EF00C29CBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D7A84E6182E00EF00C29CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D7A84E8182E00EF00C29CBF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1D7A84E9182E00EF00C29CBF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1D7A84EB182E00EF00C29CBF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1D7A84F1182E00EF00C29CBF /* TextClerkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextClerkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D7A84F2182E00EF00C29CBF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1D7A84FA182E00EF00C29CBF /* TextClerkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextClerkTests-Info.plist"; sourceTree = "<group>"; };
+		1D7A84FC182E00EF00C29CBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D7A84FE182E00EF00C29CBF /* TextClerkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextClerkTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D7A84CD182E00EF00C29CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D7A84D6182E00EF00C29CBF /* CoreGraphics.framework in Frameworks */,
+				1D7A84D8182E00EF00C29CBF /* UIKit.framework in Frameworks */,
+				1D7A84D4182E00EF00C29CBF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D7A84EE182E00EF00C29CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D7A84F3182E00EF00C29CBF /* XCTest.framework in Frameworks */,
+				1D7A84F5182E00EF00C29CBF /* UIKit.framework in Frameworks */,
+				1D7A84F4182E00EF00C29CBF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D7A84C7182E00EE00C29CBF = {
+			isa = PBXGroup;
+			children = (
+				1D7A84D9182E00EF00C29CBF /* TextClerk */,
+				1D7A84F8182E00EF00C29CBF /* TextClerkTests */,
+				1D7A84D2182E00EF00C29CBF /* Frameworks */,
+				1D7A84D1182E00EF00C29CBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D7A84D1182E00EF00C29CBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D7A84D0182E00EF00C29CBF /* TextClerk.app */,
+				1D7A84F1182E00EF00C29CBF /* TextClerkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D7A84D2182E00EF00C29CBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D7A84D3182E00EF00C29CBF /* Foundation.framework */,
+				1D7A84D5182E00EF00C29CBF /* CoreGraphics.framework */,
+				1D7A84D7182E00EF00C29CBF /* UIKit.framework */,
+				1D7A84F2182E00EF00C29CBF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D7A84D9182E00EF00C29CBF /* TextClerk */ = {
+			isa = PBXGroup;
+			children = (
+				1D7A84E2182E00EF00C29CBF /* AppDelegate.h */,
+				1D7A84E3182E00EF00C29CBF /* AppDelegate.m */,
+				1D7A84E5182E00EF00C29CBF /* Main.storyboard */,
+				1D7A84E8182E00EF00C29CBF /* ViewController.h */,
+				1D7A84E9182E00EF00C29CBF /* ViewController.m */,
+				1D7A84EB182E00EF00C29CBF /* Images.xcassets */,
+				1D7A84DA182E00EF00C29CBF /* Supporting Files */,
+			);
+			path = TextClerk;
+			sourceTree = "<group>";
+		};
+		1D7A84DA182E00EF00C29CBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D7A84DB182E00EF00C29CBF /* TextClerk-Info.plist */,
+				1D7A84DC182E00EF00C29CBF /* InfoPlist.strings */,
+				1D7A84DF182E00EF00C29CBF /* main.m */,
+				1D7A84E1182E00EF00C29CBF /* TextClerk-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D7A84F8182E00EF00C29CBF /* TextClerkTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D7A84FE182E00EF00C29CBF /* TextClerkTests.m */,
+				1D7A84F9182E00EF00C29CBF /* Supporting Files */,
+			);
+			path = TextClerkTests;
+			sourceTree = "<group>";
+		};
+		1D7A84F9182E00EF00C29CBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D7A84FA182E00EF00C29CBF /* TextClerkTests-Info.plist */,
+				1D7A84FB182E00EF00C29CBF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D7A84CF182E00EF00C29CBF /* TextClerk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D7A8502182E00EF00C29CBF /* Build configuration list for PBXNativeTarget "TextClerk" */;
+			buildPhases = (
+				1D7A84CC182E00EF00C29CBF /* Sources */,
+				1D7A84CD182E00EF00C29CBF /* Frameworks */,
+				1D7A84CE182E00EF00C29CBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextClerk;
+			productName = TextClerk;
+			productReference = 1D7A84D0182E00EF00C29CBF /* TextClerk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D7A84F0182E00EF00C29CBF /* TextClerkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D7A8505182E00EF00C29CBF /* Build configuration list for PBXNativeTarget "TextClerkTests" */;
+			buildPhases = (
+				1D7A84ED182E00EF00C29CBF /* Sources */,
+				1D7A84EE182E00EF00C29CBF /* Frameworks */,
+				1D7A84EF182E00EF00C29CBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D7A84F7182E00EF00C29CBF /* PBXTargetDependency */,
+			);
+			name = TextClerkTests;
+			productName = TextClerkTests;
+			productReference = 1D7A84F1182E00EF00C29CBF /* TextClerkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D7A84C8182E00EE00C29CBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Kyle Charron";
+				TargetAttributes = {
+					1D7A84F0182E00EF00C29CBF = {
+						TestTargetID = 1D7A84CF182E00EF00C29CBF;
+					};
+				};
+			};
+			buildConfigurationList = 1D7A84CB182E00EE00C29CBF /* Build configuration list for PBXProject "TextClerk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D7A84C7182E00EE00C29CBF;
+			productRefGroup = 1D7A84D1182E00EF00C29CBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D7A84CF182E00EF00C29CBF /* TextClerk */,
+				1D7A84F0182E00EF00C29CBF /* TextClerkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D7A84CE182E00EF00C29CBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D7A84EC182E00EF00C29CBF /* Images.xcassets in Resources */,
+				1D7A84DE182E00EF00C29CBF /* InfoPlist.strings in Resources */,
+				1D7A84E7182E00EF00C29CBF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D7A84EF182E00EF00C29CBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D7A84FD182E00EF00C29CBF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D7A84CC182E00EF00C29CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D7A84EA182E00EF00C29CBF /* ViewController.m in Sources */,
+				1D7A84E4182E00EF00C29CBF /* AppDelegate.m in Sources */,
+				1D7A84E0182E00EF00C29CBF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D7A84ED182E00EF00C29CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D7A84FF182E00EF00C29CBF /* TextClerkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D7A84F7182E00EF00C29CBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D7A84CF182E00EF00C29CBF /* TextClerk */;
+			targetProxy = 1D7A84F6182E00EF00C29CBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D7A84DC182E00EF00C29CBF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D7A84DD182E00EF00C29CBF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1D7A84E5182E00EF00C29CBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D7A84E6182E00EF00C29CBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D7A84FB182E00EF00C29CBF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D7A84FC182E00EF00C29CBF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D7A8500182E00EF00C29CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D7A8501182E00EF00C29CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D7A8503182E00EF00C29CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextClerk/TextClerk-Prefix.pch";
+				INFOPLIST_FILE = "TextClerk/TextClerk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1D7A8504182E00EF00C29CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextClerk/TextClerk-Prefix.pch";
+				INFOPLIST_FILE = "TextClerk/TextClerk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1D7A8506182E00EF00C29CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TextClerk.app/TextClerk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextClerk/TextClerk-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TextClerkTests/TextClerkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1D7A8507182E00EF00C29CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TextClerk.app/TextClerk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextClerk/TextClerk-Prefix.pch";
+				INFOPLIST_FILE = "TextClerkTests/TextClerkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D7A84CB182E00EE00C29CBF /* Build configuration list for PBXProject "TextClerk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D7A8500182E00EF00C29CBF /* Debug */,
+				1D7A8501182E00EF00C29CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D7A8502182E00EF00C29CBF /* Build configuration list for PBXNativeTarget "TextClerk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D7A8503182E00EF00C29CBF /* Debug */,
+				1D7A8504182E00EF00C29CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1D7A8505182E00EF00C29CBF /* Build configuration list for PBXNativeTarget "TextClerkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D7A8506182E00EF00C29CBF /* Debug */,
+				1D7A8507182E00EF00C29CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D7A84C8182E00EE00C29CBF /* Project object */;
+}
